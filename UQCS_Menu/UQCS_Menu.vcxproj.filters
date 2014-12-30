@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="menuitem.cpp">
+      <Filter>menuitem</Filter>
+    </ClCompile>
+    <ClCompile Include="menuparser.cpp">
+      <Filter>menuparser</Filter>
+    </ClCompile>
+    <ClCompile Include="submenu.cpp">
+      <Filter>submenu</Filter>
+    </ClCompile>
+    <ClCompile Include="uqcm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="menuitem.h">
+      <Filter>menuitem</Filter>
+    </ClInclude>
+    <ClInclude Include="menuparser.h">
+      <Filter>menuparser</Filter>
+    </ClInclude>
+    <ClInclude Include="submenu.h">
+      <Filter>submenu</Filter>
+    </ClInclude>
+    <ClInclude Include="uqcm.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="menuitem">
+      <UniqueIdentifier>{44dc1876-b5c4-4976-b4b3-62d7886d67fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menuparser">
+      <UniqueIdentifier>{cde75e87-188b-4073-804c-f8d51a0fb386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submenu">
+      <UniqueIdentifier>{1aaf076e-c2fd-4c2f-8bdf-204e06255be6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
