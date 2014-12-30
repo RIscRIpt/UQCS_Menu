@@ -7,8 +7,8 @@
 extern "C" {
 #endif
 
-extern int KBDHook_Start(void (*callback)(BYTE, void*), void *cb_argument);
-extern void KBDHook_Stop(void);
+int KBDHook_Start(void (*callback)(BYTE, void*), void *cb_argument);
+void KBDHook_Stop(void);
 
 #if defined __cplusplus
 }
