@@ -3,4 +3,19 @@
   <ItemGroup>
     <ClCompile Include="DllMain.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Filter Include="hidedll">
+      <UniqueIdentifier>{55e60625-bcea-432f-a236-83c286ea8e12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="hidedll.asm">
+      <Filter>hidedll</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hidedll.h">
+      <Filter>hidedll</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
