@@ -46,13 +46,11 @@
   <ItemGroup>
     <ClCompile Include="menuitem.cpp" />
     <ClCompile Include="menuparser.cpp" />
-    <ClCompile Include="submenu.cpp" />
     <ClCompile Include="uqcm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="menuitem.h" />
     <ClInclude Include="menuparser.h" />
-    <ClInclude Include="submenu.h" />
     <ClInclude Include="uqcm.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

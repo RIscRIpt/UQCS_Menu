@@ -7,9 +7,6 @@
     <ClCompile Include="menuparser.cpp">
       <Filter>menuparser</Filter>
     </ClCompile>
-    <ClCompile Include="submenu.cpp">
-      <Filter>submenu</Filter>
-    </ClCompile>
     <ClCompile Include="uqcm.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -19,9 +16,6 @@
     <ClInclude Include="menuparser.h">
       <Filter>menuparser</Filter>
     </ClInclude>
-    <ClInclude Include="submenu.h">
-      <Filter>submenu</Filter>
-    </ClInclude>
     <ClInclude Include="uqcm.h" />
   </ItemGroup>
   <ItemGroup>
@@ -30,9 +24,6 @@
     </Filter>
     <Filter Include="menuparser">
       <UniqueIdentifier>{cde75e87-188b-4073-804c-f8d51a0fb386}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="submenu">
-      <UniqueIdentifier>{1aaf076e-c2fd-4c2f-8bdf-204e06255be6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

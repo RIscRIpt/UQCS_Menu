@@ -24,8 +24,8 @@ void key_event(BYTE key, void *pParam) {
 	system("cls");
 	
 	for(auto item : menu->getItems()) {
-		cout << item.isSelected() ? '>' : ' ';
-		cout << item.getTitle() << endl;
+		cout << item.m_selected ? '>' : ' ';
+		cout << item.m_title << endl;
 	}
 }
 
