@@ -47,7 +47,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="autooffsets.cpp" />
     <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="memscan.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="hidedll.asm">
@@ -57,7 +59,10 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="asm_instr.h" />
+    <ClInclude Include="autooffsets.h" />
     <ClInclude Include="hidedll.h" />
+    <ClInclude Include="memscan.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

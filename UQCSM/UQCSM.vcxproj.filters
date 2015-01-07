@@ -2,10 +2,22 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="memscan.cpp">
+      <Filter>MemoryScan</Filter>
+    </ClCompile>
+    <ClCompile Include="autooffsets.cpp">
+      <Filter>AutoOffsets</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="hidedll">
       <UniqueIdentifier>{55e60625-bcea-432f-a236-83c286ea8e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutoOffsets">
+      <UniqueIdentifier>{ba127a09-c16b-44ee-a855-7b38bbe60c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryScan">
+      <UniqueIdentifier>{028dfb56-93ba-41a2-9230-d8a5211bfcd4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -16,6 +28,15 @@
   <ItemGroup>
     <ClInclude Include="hidedll.h">
       <Filter>hidedll</Filter>
+    </ClInclude>
+    <ClInclude Include="autooffsets.h">
+      <Filter>AutoOffsets</Filter>
+    </ClInclude>
+    <ClInclude Include="memscan.h">
+      <Filter>MemoryScan</Filter>
+    </ClInclude>
+    <ClInclude Include="asm_instr.h">
+      <Filter>MemoryScan</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
